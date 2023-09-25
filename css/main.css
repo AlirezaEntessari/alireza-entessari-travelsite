@@ -1,0 +1,235 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.homepage{
+    background-color: #FFFFFF;
+}
+
+.homepage__top--link{
+    font-size: 1.5625rem;
+    margin-left: 6.25rem;
+    text-decoration: none;
+    color: #335576;
+    font-weight: 700;
+}
+
+nav.homepage__navbar a{
+    text-decoration: none; 
+}
+
+.homepage__navbar ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 12.5rem;
+}
+
+.homepage__navbar--item{
+    /* display: inline-block; */
+    margin: 0 1.25rem;
+}
+
+.homepage__navbar ul li{
+    list-style-type: none;
+}
+
+/* .travel-site__container{
+    display: inline-block;
+} */
+
+.homepage__navbar--item--link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color:black;
+    font-weight: bold;
+  }
+  
+  .homepage__navbar--item--link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .125rem;
+    bottom: 0;
+    left: 0;
+    background-color: #DB7A4E;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .homepage__navbar--item--link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.nav.homepage__navbar a{ 
+    text-decoration: none; 
+}
+
+.hero{
+    background-color: #FEFAF5;
+    display: flex;
+    padding: 1.875rem;
+}
+
+.hero h1{
+    margin-top: 12.5rem;
+}
+
+/* .hero__descriptor{
+    display: inline-block;
+    margin-top: 250px;
+} */
+
+/* .hero-content-container{
+    justify-content: right;
+} */
+
+.align-content-container{
+    padding: 4.6875rem;
+    flex-wrap: wrap;
+    height: 15rem;
+    color: #335576;
+}
+
+.align-content-container h3{
+    font-size: 1.25rem;
+}
+
+.hero__image{
+    /* padding: 40px; */
+    margin-right: 2.5rem;
+}
+
+.hero__button{
+    margin-top: .625rem;
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    border-width: 0;
+    width: 12rem;
+    height: 2.8rem;
+    border-radius: 10rem;
+    font-size: 1rem;
+}
+
+/* .hero__container{
+    display: inline-block;
+} */
+
+.recommendations__section{
+    /* text-align: center; */
+    background-color:#FFFFFF;
+    padding-bottom: 4rem;
+}
+
+.recommendations__section h3{
+    color: #335576;
+    padding: 1.25rem;
+    font-size: 2.0625rem;
+    margin-left: 6.25rem;
+}
+
+.recommendations__card--section{
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+}
+
+.recommendations__card{
+    width: 20.625rem;
+    height: 27.5rem;
+    padding: 1.25rem;
+    text-align: center;
+    /* margin: 20px; */
+    margin: 2rem;
+    border-radius: .3125rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* display: inline-block; */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    position: relative;
+}
+
+.recommendations__card a{
+    text-decoration: none;
+    /* margin-right: 0px; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #FFFFFF;
+    padding: .625rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.hawaii{
+    background-image: url("../assets/images/hawaii.jpg");
+}
+
+.iceland{
+    background-image: url("../assets/images/iceland.jpg");
+}
+
+.greece{
+    background-image: url("../assets/images/greece.jpg");
+}
+
+.homepage__footer{
+    padding: 2rem;
+    background-color: #FEFAF5;
+    /* display: flex; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+/* 
+.homepage__footer--container{
+    justify-content:space-between;
+} */
+
+.homepage__footer h3,p{
+    color: #335576;
+}
+
+.footer__subtitle{
+    color: #DB7A4E;
+    font-size: .6875rem;
+}
+
+/* .homepage__footer--hours{
+
+} */
+
+.footer__section{
+    display: flex;
+    padding-top: 1.25rem;
+}
+
+.footer__section--info{
+    padding-right: 3rem;
+}
+
+.footer__subtitle{
+    padding-right: 1.25rem;
+}
+
+.homepage__footer--contact h3{
+    padding-bottom: 0.6rem;
+}
+
+.homepage__footer--hours h3{
+    padding-bottom: 1rem;
+}
+
+.homepage__footer-social-media h3{
+    padding-bottom: 1rem;
+}
+
+.footer__section a{
+    padding-right: 4rem;
+}
+
+
